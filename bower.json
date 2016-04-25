@@ -1,0 +1,22 @@
+{
+  "name": "getserved.me",
+  "authors": [
+    "alex <googirard.alex@gmail.com>"
+  ],
+  "description": "Getserved marketing website",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid": "~6.3.0",
+    "skeleton": "^2.0.4"
+  }
+}
