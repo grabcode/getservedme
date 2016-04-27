@@ -22,44 +22,151 @@
   <link rel="stylesheet" href="bower_components/skeleton/css/normalize.css">
   <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="bower_components/skeleton/images/favicon.png">
+  <link rel="icon" type="image/png" href="assets/gs.png">
 
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="logobar">
-    <div class="container row">
-      <h1 class="logo">getserved 22323</h1>
-      <a href="http://getserved.me" class="web-address">http://getserved.me</a>
-    </div>
-  </div>
-  <div class="navbar">
-    <div class="container row">
-      <div class="eight columns nav">
-      <p>
-        <a href="#menu2">ABOUT US</a>
-        <a href="#menu3">SERVICES</a>
-        <a href="#menu4">CLIENTS</a>
-        <a href="#menu8">CONTACT US</a>
-      </p>
+
+  <section class="homeSec" id="menu1">
+    <!-- <div class="topPanel">
+    </div> -->
+
+    <div class="container tagline">
+      <div class="row">
+        <div class="four columns">
+          <h1>getserved</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="six columns">
+          <p>We transform ideas into products, given enough coffee, healthy food and money or equity, obviously.</p>
+          <p>We are not your usual consultancy company. We actually consider our work key. We work exclusively on useful products.</p>
+        </div>
+        <div class="six columns nav">
+          <h5>
+            <a href="#menu2">consultancy</a>
+            <a href="#menu3">web dev</a>
+            <a href="#menu4">app dev</a>
+          </h5>
+        </div>
+      </div>
+        <h5><i class="fa fa-chevron-down"></i></h5>
     </div>
 
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h1>Getserved</h1>
-        <p>We transform ideas in products, given enough coffee, healthy food and money or equity obviously.</p>
-        <p>We are not your usual consultancy company. We actually consider our work key. We work exclusively on useful products.</p>
+  </section>
+  <div class="breakPage"></div>
+
+
+  <section class="consultSec" id="menu2">
+    <div class="white">
+      <div class="container row">
+        <h4>consultancy</h4>
+        <div class="row">
+          <div class="six columns">
+
+            <h5>Web Development</h5>
+            <div class="row">
+              <div class="three columns">
+                <div class="icon"><i class="fa fa-desktop"></i></div>
+              </div>
+              <div class="nine columns">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="six columns">
+            <h5>Mobile Apps</h5>
+            <div class="row">
+              <div class="three columns">
+                <div class="icon"><i class="fa fa-mobile fa-lg"></i></div>
+              </div>
+              <div class="nine columns">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
+  </section>
+  <div class="breakPage"></div>
+
+
+  <section class="webSec" id="menu3">
+    <div class="container row">
+      <div class="ghost">
+        <h4>web dev</h4>
+        <div class="row clientPanel">
+          <div class="four columns">
+            <img class="website-image" src="assets/utrex-site.png" alt="utrex website" />
+          </div>
+          <div class="eight columns">
+            <img src="assets/Logo_Utrex_150dpi_white.png" alt="utrex logo" />
+            <p>I am proud of the work done on the Utrex website. It was made for a student (General Assembly) turned client</p>
+          </div>
+          <p class="more-text" id="more-utrex">read more/read less</p>
+          <div class="row">
+            <div>
+              <p>On mobile, it feels like an app. For that, the aim was to get a super fast loading time of the assets and get the page repaint at 60FPS, without losing any SEO (website had to work statically too: js disabled). During the process, I've actually re-invented the "Turbolinks" (after some research I met a similar concept in ruby).</p>
+              <p>In a nutshell, the idea is to fetch the link of the page via AJAX, and extract the content you want to inject it into your "wrapper" element. Another benefit of this process is the full control over the transitions/animations between pages!</p>
+              <p>The downside atm: it requires a bit to rethink your javascript, particularly the event binding layer.</p>
+              <p>I now investigate around component, since the idea around that consists of building a self-contained piece of content/functionality. I even had to do a bit of php, language I haven't touched for 5 years.</p>
+              <p><cite>Alex Girard</cite></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <h5>Menu</h5>
+            <ul class="u-list-unstyle">
+              <li><a data-turbolinks href="index.html">Home</a></li>
+              <li><a data-turbolinks href="services.html">Services</a></li>
+              <li><a data-turbolinks href="about.html">About us</a></li>
+              <li><a href="#" data-action="contact-us">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="four columns">
+            <h5>site directory</h5>
+            <ul class="u-list-unstyle">
+              <li><a href="" target="_blank">consultancy</a></li>
+              <li><a href="" target="_blank">web dev</a></li>
+              <li><a href="" target="_blank">app dev</a></li>
+            </ul>
+          </div>
+          <div class="four columns">
+            <h5>Latest News</h5>
+            <article class="preview">
+              <h6>tba</h6>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum... <a href="https://medium.com/@utrex/waste-heat-boiler-clean-16b0b25bc21a#.yk6z6g8or">More</a></p>            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns copyright">
+            © 2016<br><a href="" target="_blank">getserved</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

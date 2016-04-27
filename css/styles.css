@@ -1,35 +1,157 @@
-.logobar {
-  width: 100%;
-  height: 7rem;
-  background: black;
+/*div, html {
+  border: 1px dashed lime;
 }
-.logo {
-  margin: .1rem 0;
+*/
+.homeSec {  /*menu1*/
+  height: 70rem;
+  background: #79939f;
+  background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #f3ebcb 10%, #003b74 90%);
+  background: url("/Users/MissC/workspace/getservedme/assets/placeholder2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.consultSec {  /*menu2*/
+  height: auto;
+  padding: 10% 0;
+  background: #79939f;
+  background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #f3ebcb 10%, #003b74 90%);
+  background: url("/Users/MissC/workspace/getservedme/assets/placeholder1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.webSec {  /*menu3*/
+  height: auto;
+  padding: 10% 0;
   color: white;
-  width: 50rem;
-  float: left;
+  background: #79939f;
+  background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #f3ebcb 10%, #003b74 90%);
+  background: url("/Users/MissC/workspace/getservedme/assets/placeholder2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.web-address {
-  text-decoration: none;
+
+.white,
+.ghost {
+  height: 80%;
+}
+.white {
+  background: white;
+  padding: 5rem 0 8rem 0;
+}
+.ghost {
+  background: rgba(0,0,0, .4);
+  padding: 3rem 3rem 5rem 3rem;
   color: white;
-  font-size: 1.4rem;
-  float: right;
-  width: 16rem;
-  margin: 3.4rem 0;
 }
-.navbar {
+
+.topPanel {
   width: 100%;
-  height: 5rem;
-  background: grey;
+  height: 4rem;
+  background: #159;
+  position:fixed;
+  z-index: 2;
+}
+.tagline {
+  position: relative;
+  top: 40%;
+}
+.tagline h1 {
+  color: white;
+}
+.tagline p {
+  color: white;
 }
 .nav a {
-  padding: 1rem 0 1rem 2rem;
-  float: left;
   text-decoration: none;
-  color: white;
-  font-size: 1rem;
+  color: #159;
+  display: block;
 }
-.nav p {
+a {
+  color: lime;
+}
+img {
+  width: 13rem;
+}
+.more-text {
+  width: 15rem;
+  margin: -2rem 0 0 0;
   float: right;
-  margin: 0;
+  text-align: right;
+  color: #0DF;
+  font-size: .8em;
+}
+
+/* -- ICONS -- */
+i.fa-chevron-down {
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+  color: #446;
+}
+.icon {
+  height: 6rem;
+  margin-bottom: 5rem;
+  font-size: 6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-desktop {
+  font-size: 4.5rem;
+}
+
+/* -- WEB PANEL -- */
+.clientIcon {
+  margin: 1.5rem 0 2rem 0;
+}
+.clientPanel {
+  margin: 3rem 0;
+}
+.clientPanel a {
+  color: white;
+  font-weight: 400;
+}
+/* -- ----- -- */
+.breakPage {
+  height: .7rem;
+  background: #159;
+  position: relative;
+}
+/* -- FOOTER -- */
+.footer {
+    width: 100%;
+    background: #159;
+    padding: 45px 0 55px;
+    color: #0DF;
+}
+.footer h5, .footer h6 {
+    font-size: .9em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    background: none;
+    color: inherit;
+}
+.footer h5 {
+    margin-bottom: 10px;
+}
+.u-list-unstyle {
+    list-style: none;
+    margin: 0;
+}
+.u-list-unstyle > li {
+    margin: 0;
+}
+.footer a, .footer h6 {
+  color: #FFF;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
 }
