@@ -5,8 +5,8 @@
 .homeSec {  /*menu1*/
   height: 70rem;
   background: #79939f;
-  background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #f3ebcb 10%, #003b74 90%);
-  background: url("/Users/MissC/workspace/getservedme/assets/placeholder2.jpg") no-repeat center center fixed;
+  background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #fff 10%, #000 90%);
+  background: url("../assets/getserved_at_work.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +17,7 @@
   padding: 10% 0;
   background: #79939f;
   background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #f3ebcb 10%, #003b74 90%);
-  background: url("/Users/MissC/workspace/getservedme/assets/placeholder1.jpg") no-repeat center center fixed;
+  background: url("../assets/placeholder1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,7 +29,7 @@
   color: white;
   background: #79939f;
   background: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),linear-gradient(305deg, #f3ebcb 10%, #003b74 90%);
-  background: url("/Users/MissC/workspace/getservedme/assets/placeholder2.jpg") no-repeat center center fixed;
+  background: url("../assets/unmount_mount.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,9 +62,6 @@
   top: 40%;
 }
 .tagline h1 {
-  color: white;
-}
-.tagline p {
   color: white;
 }
 .nav a {
